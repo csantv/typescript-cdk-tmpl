@@ -1,0 +1,22 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/node": "22.13.10",
+    "aws-cdk": "2.1003.0",
+    "eslint": "^9.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.26.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.183.0",
+    "constructs": "^10.0.0"
+  }
+}
