@@ -1,6 +1,7 @@
 {
   "name": "cdk",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -8,15 +9,18 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@tsconfig/node-lts": "^22.0.1",
     "@types/node": "22.13.10",
     "aws-cdk": "2.1003.0",
     "eslint": "^9.22.0",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
     "typescript": "~5.8.2",
     "typescript-eslint": "^8.26.1"
   },
   "dependencies": {
     "aws-cdk-lib": "2.183.0",
+    "cdk-nag": "^2.35.44",
     "constructs": "^10.0.0"
   }
 }

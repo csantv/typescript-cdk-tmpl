@@ -1,5 +1,5 @@
 *.js
-!jest.config.js
+!eslint.config.js
 *.d.ts
 .idea
 node_modules
